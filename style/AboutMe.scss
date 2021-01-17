@@ -1,0 +1,144 @@
+body{
+    font-family: Futura;
+}
+/***       About Us       ***/
+.AU{
+    margin-left: 120px;
+    margin-top: 100px;
+    font-family: Futura;
+}
+.i1{
+    float: left;
+}
+h4{
+    font-size:8px;
+    font-weight: normal;
+    color:rgb(40, 222, 192);
+    padding-top: 80px;
+    text-shadow:5px 5px 5px rgb(40, 222, 192);
+}
+h5{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    width: 200px;
+}
+.au1{
+    float: left;
+}
+.au2{
+    float: left;
+    margin-left: 30px;
+}
+.ab1{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0px;
+    width: 300px;
+    color:rgb(100, 99, 99);
+}
+.btn3{
+    border-radius:5px;
+    border-style: none;
+    height: 40px;
+    width: 130px;
+    font-size: 10px;
+    font-weight: lighter;
+    background-color:rgb(40, 222, 192);
+    color:white;
+    margin-top: 30px;
+
+}
+.i2{
+    margin-left: 180px;
+    margin-top: 20px;
+
+}
+
+/*  Circle  */
+.au3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+}
+.au31,.au32,.au33,.au34{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.05);/* 阴影 */
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+.progress_circle {
+    width: 150px;
+    height: 150px;
+    border: 7px solid transparent;
+    border-radius: 50%;
+    border-top: 7px solid #1de9b6;
+    border-right: 7px solid #1de9b6;/* top + right = 50% top = 25% top + right + bottom = 75% 增加对应 border 即可 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -82px;
+    margin-top: -82px;
+    transform : rotate(45deg); /* 旋转45度 */
+}
+.progress_circle1 {
+    width: 150px;
+    height: 150px;
+    border: 7px solid transparent;
+    border-radius: 50%;
+    border-top: 7px solid #1de9b6;
+    border-right: 7px solid #1de9b6;/* top + right = 50% top = 25% top + right + bottom = 75% 增加对应 border 即可 */
+    border-bottom: 7px solid #1de9b6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -82px;
+    margin-top: -82px;
+    transform : rotate(45deg); /* 旋转45度 */
+}
+.progress_circle2 {
+    width: 150px;
+    height: 150px;
+    border: 7px solid transparent;
+    border-radius: 50%;
+    border-top: 7px solid #1de9b6;
+    /* top + right = 50% top = 25% top + right + bottom = 75% 增加对应 border 即可 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -82px;
+    margin-top: -82px;
+    transform : rotate(45deg); /* 旋转45度 */
+}
+/* text_circle 的 size + border 的长度应该等于 progress_circle 的 size */
+.text_circle {
+    width: 148px;
+    height: 148px;
+    border: 2px solid #a7ffeb;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+}
+
+.title {
+    font-size: 10px;
+}

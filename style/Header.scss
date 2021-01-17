@@ -1,0 +1,74 @@
+body{
+    font-family: Futura;
+}
+header{
+    font-family: Futura;
+}
+
+header ~ nav{
+    font-family: Futura;
+}	
+
+/*
+ul li{
+    display: inline;
+    margin: 15px;
+}
+*/
+/***       header       ***/
+.i0{
+    float: left;
+    margin-left: 30px;
+}
+
+header{
+    position: sticky;
+    top:0;
+    width:1100px;
+    height: 80px;
+}
+
+//nested
+/*  Navigation  */
+ul {
+    text-align: right;
+    font-family: Futura;
+    margin-right: 50px;
+
+    li{
+        display: inline;
+        margin: 15px;
+        /*width: 70px;*/
+    }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+
+
+/*  Arribute selectors  */
+[target]{
+    color: black;
+}
+[target=img1]{
+    color: black;
+}
+
+[title~=WeisiminPeng]{
+    font-family: Futura;
+}
+[lang|=en]{
+    font-family: Futura;
+}
+a[href^="#"]{
+    color: rgb(100, 99, 99);
+}
+a[href$="1"]{
+    color: rgb(100, 99, 99);
+}
+a[href*="p"]	{
+    color: rgb(100, 99, 99);
+}
+

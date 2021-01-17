@@ -1,0 +1,28 @@
+{
+  "name": "assignment-4-weisiminpeng",
+  "version": "1.0.0",
+  "description": "assignment4-write sass code",
+  "main": "WeisimingPeng.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch style/main.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2020/assignment-4-WeisiminPeng.git"
+  },
+  "keywords": [
+    "scss",
+    "html",
+    "css"
+  ],
+  "author": "weisiminpeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2020/assignment-4-WeisiminPeng/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2020/assignment-4-WeisiminPeng#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

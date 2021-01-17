@@ -1,0 +1,63 @@
+/***       Portfolio       ***/
+h11{
+    font-size:15px;
+    font-weight: normal;
+    color:rgb(40, 222, 192);
+    text-shadow:5px 5px 5px #8ed4ba;
+    margin-left: 550px;
+    
+}
+h12{
+    font-size:30px;
+    margin-top: 20px;
+    text-shadow:5px 5px 5px #8ed4ba;
+    margin-left: 457px;
+    margin-bottom: 30px;
+}
+
+.f1{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.f11{
+    margin-left: 50px;
+    float: left;
+}
+.f12{
+    margin-left: 50px;
+    float: left;
+}  
+ 
+//selectors
+/* Pseudo Class */
+.f12{
+    font-family: Futura;
+    &:hover{
+        content:url(../4.2.jpg);
+        width: 200px;
+    }
+}
+
+.f13{
+    margin-left: 50px;
+    float: left;
+}
+.f14{
+    margin-left: 50px;
+    float: left;
+}
+
+
+.btn7{
+    border-radius:5px;
+    border-style: none;
+    height: 60px;
+    width: 170px;
+    background-color:rgb(40, 222, 192);
+    color:white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 511px;
+    margin-bottom: 150px;
+}
